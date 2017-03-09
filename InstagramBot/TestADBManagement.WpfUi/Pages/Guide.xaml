@@ -1,0 +1,26 @@
+﻿<Page x:Class="TestADBManagement.WpfUi.Pages.Guide"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:ap="clr-namespace:TestADBManagement.WpfUi"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:TestADBManagement.WpfUi.Pages"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      Title="Guide"
+      d:DesignHeight="300"
+      d:DesignWidth="300"
+      mc:Ignorable="d">
+    <Page.Resources />
+    <Grid>
+        <TabControl ItemContainerStyle="{StaticResource TabItem_Style}" Style="{StaticResource TabControl_Style}">
+            <TabItem Header="1 Never run all accounts simultaneously!">Some text gonna be here.</TabItem>
+            <TabItem Header="2 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+            <TabItem Header="3 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+            <TabItem Header="4 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+            <TabItem Header="5 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+            <TabItem Header="6 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+            <TabItem Header="7 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+            <TabItem Header="8 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+            <TabItem Header="9 Never run all accounts simultaneously!">Another text gonna be here.</TabItem>
+        </TabControl>
+    </Grid>
+</Page>

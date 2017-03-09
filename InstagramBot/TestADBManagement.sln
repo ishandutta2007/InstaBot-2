@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestADBManagement.TestApp", "TestADBManagement\TestADBManagement.TestApp.csproj", "{692F72AF-2678-4F79-8EA4-7A48B70478BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestADBManagement.AndroidManagement", "AndroidManagement\TestADBManagement.AndroidManagement.csproj", "{8687888A-B883-4A85-B4D9-87C3CCCC7018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestADBManagement.BotTasks", "TestADBManagement.BotTasks\TestADBManagement.BotTasks.csproj", "{B551A156-0584-4B08-B660-65294BB78484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestADBManagement.WpfUi", "TestADBManagement.WpfUi\TestADBManagement.WpfUi.csproj", "{1BB59A73-5FB8-41EF-BEE8-6BA4AD4DFAC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestADBManagement.HardwareInfoReceiver", "TestADBManagement.HardwareInfoReceiver\TestADBManagement.HardwareInfoReceiver.csproj", "{64F145CD-22F1-4C44-837D-BE6FF820D624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestADBManagement.Auth", "TestADBManagement.Auth\TestADBManagement.Auth.csproj", "{6F905AD9-F4FB-49FE-92AB-534AC1FBBD53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{692F72AF-2678-4F79-8EA4-7A48B70478BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692F72AF-2678-4F79-8EA4-7A48B70478BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692F72AF-2678-4F79-8EA4-7A48B70478BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692F72AF-2678-4F79-8EA4-7A48B70478BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8687888A-B883-4A85-B4D9-87C3CCCC7018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8687888A-B883-4A85-B4D9-87C3CCCC7018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8687888A-B883-4A85-B4D9-87C3CCCC7018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8687888A-B883-4A85-B4D9-87C3CCCC7018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B551A156-0584-4B08-B660-65294BB78484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B551A156-0584-4B08-B660-65294BB78484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B551A156-0584-4B08-B660-65294BB78484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B551A156-0584-4B08-B660-65294BB78484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB59A73-5FB8-41EF-BEE8-6BA4AD4DFAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB59A73-5FB8-41EF-BEE8-6BA4AD4DFAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB59A73-5FB8-41EF-BEE8-6BA4AD4DFAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB59A73-5FB8-41EF-BEE8-6BA4AD4DFAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F145CD-22F1-4C44-837D-BE6FF820D624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F145CD-22F1-4C44-837D-BE6FF820D624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F145CD-22F1-4C44-837D-BE6FF820D624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F145CD-22F1-4C44-837D-BE6FF820D624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F905AD9-F4FB-49FE-92AB-534AC1FBBD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F905AD9-F4FB-49FE-92AB-534AC1FBBD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F905AD9-F4FB-49FE-92AB-534AC1FBBD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F905AD9-F4FB-49FE-92AB-534AC1FBBD53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://struggleendlessly.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AndroidManagement\\TestADBManagement.AndroidManagement.csproj
+		SccProjectName1 = AndroidManagement
+		SccLocalPath1 = AndroidManagement
+		SccProjectUniqueName2 = TestADBManagement.Auth\\TestADBManagement.Auth.csproj
+		SccProjectName2 = TestADBManagement.Auth
+		SccLocalPath2 = TestADBManagement.Auth
+		SccProjectUniqueName3 = TestADBManagement.BotTasks\\TestADBManagement.BotTasks.csproj
+		SccProjectName3 = TestADBManagement.BotTasks
+		SccLocalPath3 = TestADBManagement.BotTasks
+		SccProjectUniqueName4 = TestADBManagement.HardwareInfoReceiver\\TestADBManagement.HardwareInfoReceiver.csproj
+		SccProjectName4 = TestADBManagement.HardwareInfoReceiver
+		SccLocalPath4 = TestADBManagement.HardwareInfoReceiver
+		SccProjectUniqueName5 = TestADBManagement.WpfUi\\TestADBManagement.WpfUi.csproj
+		SccProjectName5 = TestADBManagement.WpfUi
+		SccLocalPath5 = TestADBManagement.WpfUi
+		SccProjectUniqueName6 = TestADBManagement\\TestADBManagement.TestApp.csproj
+		SccProjectName6 = TestADBManagement
+		SccLocalPath6 = TestADBManagement
+	EndGlobalSection
+EndGlobal

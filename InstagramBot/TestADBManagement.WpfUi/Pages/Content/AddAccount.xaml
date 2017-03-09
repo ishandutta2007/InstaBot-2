@@ -1,0 +1,93 @@
+﻿<Page x:Class="TestADBManagement.WpfUi.Pages.Content.AddAccount"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:controls="clr-namespace:TestADBManagement.WpfUi.Controls"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:TestADBManagement.WpfUi.Pages.Content"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      Title="AddAccount"
+      d:DesignHeight="490"
+      d:DesignWidth="800"
+      mc:Ignorable="d">
+    <Grid TextBlock.Foreground="#5c5c5c">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*" />
+            <ColumnDefinition Width="0.3*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO" />
+            <RowDefinition Height="AUTO" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"
+                   FontSize="30"
+                   Foreground="#766254"
+                   Text="Add Instagram Account"
+                   TextAlignment="Center" />
+        <Rectangle Grid.RowSpan="3"
+                   Grid.Column="1"
+                   Fill="#f7f7f7" />
+        <StackPanel Grid.Row="1" TextBlock.FontSize="14">
+            <Grid Margin="0, 10, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0, 0, 10, 0"
+                           HorizontalAlignment="Right"
+                           Text="Account name:" />
+                <controls:PopupedTextBox x:Name="AccountName_TextBox"
+                                         Grid.Column="1"
+                                         controls:PopupContent="Any kind of text here" />
+            </Grid>
+
+            <Grid Margin="0, 10, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0, 0, 10, 0"
+                           HorizontalAlignment="Right"
+                           Text="Password:" />
+                <controls:PopupedTextBox x:Name="Password_TextBox"
+                                         Grid.Column="1"
+                                         controls:PopupContent="Any kind of text here" />
+            </Grid>
+
+            <Grid Margin="0, 10, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0, 0, 10, 0"
+                           HorizontalAlignment="Right"
+                           Text="Proxies:" />
+                <controls:PopupedTextBox x:Name="Proxies_TextBox"
+                                         Grid.Column="1"
+                                         controls:PopupContent="Any kind of text here" />
+            </Grid>
+
+            <Grid Margin="0, 10, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*" />
+                    <ColumnDefinition Width="0.5*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0, 0, 10, 0"
+                           HorizontalAlignment="Right"
+                           Text="Email:" />
+                <controls:PopupedTextBox x:Name="Email_TextBox"
+                                         Grid.Column="1"
+                                         controls:PopupContent="Any kind of text here" />
+            </Grid>
+        </StackPanel>
+        <Button Name="submitAccountForm_Button"
+                Grid.Row="2"
+                Margin="0, 20, 0, 0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Click="submitAccountForm_Click"
+                Content="Add account"
+                FontSize="24" />
+    </Grid>
+</Page>
